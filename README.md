@@ -1,3 +1,7 @@
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build"
+}
 import React, { useState, useEffect } from 'react';
 import { useDropzone } from 'react-dropzone';
 import { createFFmpeg, fetchFile } from '@ffmpeg/ffmpeg';
